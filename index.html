@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas diaria </title>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+    <body>
+        <header>
+            <h1>Lista de tarefas diaria</h1>
+
+            <button id="mostrar-formulario">Adicionar tarefa</button>
+
+            <div id="formulario">
+                <form id="meu-formulario">
+                    <label for="texto-novo">Qual tarefa deseja adicionar?</label>
+                    <input type="text" id="texto-novo" required>
+                    <button type="submit">Adicionar</button>
+                    <button type="button" id="botao-cancelar">Cancelar</button>
+                </form>
+            </div>
+
+            <div id="output">
+                <ul id="tarefas"></ul>
+            </div>
+
+            <script src="main.js"></script>
+    </body>
+
+</html>
